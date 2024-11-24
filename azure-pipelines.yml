@@ -8,7 +8,7 @@ steps:
 # Log in to Azure
 - task: AzureCLI@2
   inputs:
-    azureSubscription: '<Your-Service-Connection-Name>' # Replace with your service connection
+    azureSubscription: 'azureuamisc' # Replace with your service connection
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
